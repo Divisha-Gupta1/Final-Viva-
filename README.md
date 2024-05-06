@@ -1,7 +1,7 @@
 # Quiz App📝🤔
 ## Project Information📋
- - **Primary Owner:**Kavish Khanna
- - **Secondary Owner:**Kartik Joshi
+ - **Primary Owner:** Kavish Khanna
+ - **Secondary Owner:** Kartik Joshi
    
  ## Team Members👤👤👤
 
