@@ -32,7 +32,7 @@ Login: Registered users can log in to access the  quiz and their profile.
 Timed Quiz ⏳: The quiz questions are  timed to add excitement and challenge.  
 Question Type  🖥️: Multiple choice.  
 Scoring 🏅: Users receive immediate feedback on their scores upon quiz completion.  
-Quiz Category: Quiz based is based on computer knowledge
+Quiz Category: Quiz based is based on computer knowledge.
 
 <b>3. Responsive Design</b>  
 
@@ -41,3 +41,4 @@ Usage:
 Register or log in to start taking quiz  
 Answer questions within the given time limit (if applicable).  
 Receive immediate feedback on your performance.  
+
