@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz APP</title>
+    <link rel="stylesheet" href="style2.css" />
+    </head>
+    <body>
+    <div class="wrapper">
+        <button class="start_quiz" onclick="hideShow()">Start Quiz</button>
+
+        <div class="quiz_info">
+        <h3>Some Rules of this Quiz</h3>
+        <ul class="list_info">
+            <li>1. You will only <span>15 seconds</span> per each question.</li>
+            <li>2. Once you select your answer, it can't be undone.</li>
+            <li>3. You can't select any option once timegoes off.</li>
+            <li>4. You can't exit from the Quiz while you're playing.</li>
+            <li>5. You'll get points on the basis of your correct answers.</li>
+        </ul>
+        <div class="buttons_info">
+            <button class="exit">Exit Quiz</button>
+            <button class="continue">Continue</button>
+        </div>
+        </div>
+    </div>
+
+    <section class="questions">
+        <header>
+        <h4>Awesome Quiz Application</h4>
+        <div class="timer">
+            <span>Time Left:</span>
+            <span class="timer_tag">15</span>
+        </div>
+        <div class="time_line"></div>
+        </header>
+        <h3 class="question_item">1. What does HTML stand for?</h3>
+        <ul class="question_info">
+        <li>Hiper text Preprocessor</li>
+        <li>Hiper text Markup Language</li>
+        <li>Hiper text Multiple Language</li>
+        <li>Hiper tool Multi Language</li>
+        </ul>
+        <div class="next_step">
+        <div class="number_question">1 of 5 question</div>
+        <button class="next">Next question</button>
+        </div>
+    </section>
+
+    <section class="end_game">
+        <i class="fa-solid fa-crown"></i>
+        <p>you've completed the Quiz!</p>
+        <p>
+        and nice <span class="smile"></span>, You Got
+        <span class="num_correct_answer">2</span> of 5 Questions
+        </p>
+        <div class="btn_quiz">
+        <button class="replay">Replay Quiz</button>
+        <button class="exit">Quit Quiz</button>
+        </div>
+    </section>
+
+    <script
+        src="https://kit.fontawesome.com/d575fe1d69.js"
+        crossorigin="anonymous"
+    ></script>
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+    </body>
+</html>
